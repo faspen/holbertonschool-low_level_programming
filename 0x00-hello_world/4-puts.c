@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* task 4 */
+/*task 4*/
 
 int main(void)
 {
