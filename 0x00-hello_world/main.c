@@ -1,10 +1,11 @@
 #include <stdio.h>
-/* file for 0 */
 
-int main() {
-
-printf("Hello World");
-
-return 0;
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    return (0);
 } 
