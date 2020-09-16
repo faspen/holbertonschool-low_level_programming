@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*printf this time*/
+/**
+* main - Entry point
+*
+* Return: Always 0; Success
+*/
 
 int main(void)
 {
