@@ -7,14 +7,9 @@
 
 int main(void)
 {
-
-int n;
-
-for (n = 0; n < 10; n++)
-{
-putchar(n);
-}
+int z;
+for (z = '0'; z <= '9'; ++z)
+putchar(z);
 putchar('\n');
-
 return (0);
 }
