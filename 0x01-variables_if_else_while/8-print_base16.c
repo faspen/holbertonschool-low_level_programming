@@ -7,11 +7,14 @@
 
 int main(void)
 {
-int num;
+int h;
 
-scanf("%x", &num);
-printf("%x\n", num);
-printf("%d\n", num);
+for (h = 0; h <= 16; h++)
+{
+scanf("%x", &h);
+putchar(h);
+}
+putchar('\n');
 
 return (0);
 }
