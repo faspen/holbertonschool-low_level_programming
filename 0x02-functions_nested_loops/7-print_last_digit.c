@@ -1,4 +1,11 @@
 #include "holberton.h"
+/**
+  * print_last_digit - Entry point
+  *
+  * @m: integer
+  *
+  * Return: Always r.
+  */
 
 int print_last_digit(int m)
 {
