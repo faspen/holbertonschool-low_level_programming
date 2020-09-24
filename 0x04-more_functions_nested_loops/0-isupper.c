@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * _islower - Entry point
+  * _isupper - Entry point
   *
   * @c: integer
   *
