@@ -1,5 +1,9 @@
 #include "holberton.h"
-
+/**
+  * print_square - Entry
+  *
+  * @size: integer
+  */
 void print_square(int size)
 {
 	int r;
@@ -20,4 +24,4 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
-}       
+}
