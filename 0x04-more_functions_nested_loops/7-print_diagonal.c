@@ -9,16 +9,16 @@ void print_diagonal(int n)
 {
 	int rows;
 	int space;
-
+	
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-	for (rows = 1; rows <= n; rows++)
+	for (rows = 0; rows < n; rows++)
 	{
-		for (space = 1; space <= rows; space++)
+		for (space = 0; space < rows; space++)
 		{
 			_putchar(' ');
 		}
