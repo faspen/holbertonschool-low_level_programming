@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
-  * _print_rev - Entry
-  * @str: String
+  * print_rev - Entry
+  * @s: String
   */
 
 void print_rev(char *s)
