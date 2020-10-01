@@ -16,12 +16,12 @@ void reverse_array(int *a, int n)
 	{
 		;
 	}
-	for (n = 0, i = len - 1; n < i; n++, i--)
+	for (i = 0, n = len - 1; i < n; i++, n--)
 	{
-		char temp = a[n];
+		char temp = a[i];
 
-		a[n] = a[i];
+		a[i] = a[n];
 
-		a[i] = temp;
+		a[n] = temp;
 	}
 }
