@@ -1,6 +1,10 @@
 #include "holberton.h"
 /**
+  * leet - Entry
   *
+  * @str: string
+  *
+  * Return: new string
   */
 char *leet(char *str)
 {
