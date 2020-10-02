@@ -1,4 +1,11 @@
 #include "holberton.h"
+/**
+  * rot13 - Entry
+  *
+  * @s: string
+  *
+  * Return: new string
+  */
 
 char *rot13(char *s)
 {
