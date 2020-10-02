@@ -1,6 +1,11 @@
 #include "holberton.h"
 /**
+  * _strcat - Entry
   *
+  * @dest: first half
+  * @src: second half
+  *
+  * Return: new string
   */
 
 char *_strcat(char *dest, char *src)
