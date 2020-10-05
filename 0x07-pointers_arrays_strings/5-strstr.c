@@ -1,6 +1,11 @@
 #include "holberton.h"
 /**
+  * _strstr - Entry
   *
+  * @haystack: int 1
+  * @needle: int 2
+  *
+  * Return: 0
   */
 
 char *_strstr(char *haystack, char *needle)
