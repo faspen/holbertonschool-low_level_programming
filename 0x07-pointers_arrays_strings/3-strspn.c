@@ -1,6 +1,11 @@
 #include "holberton.h"
 /**
+  * _strspn - Entry
   *
+  * @s: int
+  * @accept: int
+  *
+  * Return: result
   */
 unsigned int _strspn(char *s, char *accept)
 {

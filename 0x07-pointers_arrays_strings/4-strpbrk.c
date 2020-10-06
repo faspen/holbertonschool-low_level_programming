@@ -1,7 +1,11 @@
 #include "holberton.h"
 #include <stddef.h>
 /**
+  * _strpbrk - Entry
   *
+  * @s: int
+  * @accept: int
+  * Return: NULL
   */
 char *_strpbrk(char *s, char *accept)
 {
