@@ -2,7 +2,12 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
+  * main - entry
   *
+  * @argc: count
+  * @argv: string
+  *
+  * Return: 0
   */
 
 int main(int argc, char *argv[])
