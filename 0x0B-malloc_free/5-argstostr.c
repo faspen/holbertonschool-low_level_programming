@@ -5,7 +5,6 @@
   *
   * @dest: first
   * @src: second
-  * @n: bytes for src
   *
   * Return: new string
   */
@@ -26,7 +25,12 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 /**
+  * argstostr - Entry
   *
+  * @ac: int
+  * @av: int
+  *
+  * Return: result
   */
 
 char *argstostr(int ac, char **av)
@@ -47,7 +51,7 @@ char *argstostr(int ac, char **av)
 		}
 		len++;
 	}
-	
+
 	str = malloc((len + 1) * sizeof(char));
 
 	if (str == NULL)
