@@ -1,7 +1,12 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
+  * alloc_grid - entry
   *
+  * @width: w
+  * @height: h
+  *
+  * Return: grid
   */
 
 int **alloc_grid(int width, int height)
