@@ -32,7 +32,6 @@ int *array_range(int min, int max)
 		tempmin++;
 		arr[i] = tempmin;
 	}
-	arr[min] = '\0';
 
 	return (arr);
 }
