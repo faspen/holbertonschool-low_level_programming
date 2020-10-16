@@ -1,7 +1,13 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
+  * _realloc - entry
   *
+  * @ptr: array
+  * @old_size: old
+  * @new_size: new
+  *
+  * Return: result
   */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
