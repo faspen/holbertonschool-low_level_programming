@@ -26,7 +26,7 @@ int *array_range(int min, int max)
 
 	tempmin = min;
 
-	while (i <= (total + 1))
+	while (i < (total + 1))
 	{
 		arr[i] = tempmin;
 		i++;
