@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-  *
+  * main - entyr
+  * Return: 0
   */
 
 int main(void)
