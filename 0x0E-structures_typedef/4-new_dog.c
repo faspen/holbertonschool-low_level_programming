@@ -39,9 +39,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	while (name[i])
 		i++;
-	while(owner[j])
+	while (owner[j])
 		j++;
-	
+
 	name2 = malloc(i + 1);
 	owner2 = malloc(j + 1);
 
